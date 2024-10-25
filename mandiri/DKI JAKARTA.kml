@@ -30,6 +30,44 @@
         <styleUrl>#line-673AB7-1200-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-795548-9740-214-nodesc-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>9.74</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>d6485579</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-795548-9740-214-nodesc-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>14.61</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>d6485579</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-795548-9740-214-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-795548-9740-214-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-795548-9740-214-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Placemark>
       <name>Line 1</name>
       <styleUrl>#line-673AB7-1200-nodesc</styleUrl>
@@ -479,6 +517,53 @@
           106.6873824,-6.1048455,0
         </coordinates>
       </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Jakarta</name>
+      <styleUrl>#poly-795548-9740-214-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.6927039,-6.1135505,0
+              106.6939055,-6.1737031,0
+              106.7242677,-6.1942361,0
+              106.7272706,-6.2372546,0
+              106.7621449,-6.2783541,0
+              106.7731276,-6.3016189,0
+              106.8158804,-6.3082515,0
+              106.7926521,-6.3573097,0
+              106.8081016,-6.3646458,0
+              106.8297309,-6.3557743,0
+              106.838314,-6.3475852,0
+              106.8707518,-6.3527037,0
+              106.8917949,-6.3703072,0
+              106.9062144,-6.3607534,0
+              106.9220073,-6.3034271,0
+              106.9062144,-6.2699838,0
+              106.9192607,-6.2481421,0
+              106.9371135,-6.2529201,0
+              106.9542796,-6.2167431,0
+              106.9686992,-6.1935339,0
+              106.9645793,-6.0911284,0
+              106.9288738,-6.0959078,0
+              106.9140381,-6.0706786,0
+              106.8890483,-6.0931767,0
+              106.8499095,-6.1163903,0
+              106.8169505,-6.1150248,0
+              106.8080241,-6.1102456,0
+              106.7901714,-6.1061491,0
+              106.7654521,-6.1013698,0
+              106.7489726,-6.1013698,0
+              106.7544658,-6.0713277,0
+              106.7256267,-6.0877145,0
+              106.6864879,-6.0965905,0
+              106.6927039,-6.1135505,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
     </Placemark>
   </Document>
 </kml>
